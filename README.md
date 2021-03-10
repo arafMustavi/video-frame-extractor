@@ -11,9 +11,9 @@ we will need ```opencv``` and ```os``` package of python for this project. from 
 pip3 install opencv-python
 ```
 ## Running the code :
-- keep the video clip and the python file under same directory
-- rename the video clip as 'sample-input.mp4', if you don't want to change the code
-- hit ```python3 frame-generator.py``` in commandline. you should see the frames of your video clips extracted into extracted-frames directory.
+- keep the video clips in the ```dataset-sample``` directory
+- hit ```python3 frame-generator.py``` in commandline. 
+- you should see the frames of your video clips extracted into ```extracted-frames``` directory.
 
 ## Acknowledgement :
 In the process of writing this frame-generator.py code the following links helped a lot. You can check them out.
