@@ -11,10 +11,15 @@ we will need `opencv` and `os` package of python for this project. from python3.
 pip3 install opencv-python
 ```
 ## Running the code :
-- create a directory with the name `dataset-sample` . 
-- keep the video clips in the newly created `dataset-sample` directory . 
-- make sure that `frame-generator.py` and `dataset-sample` directory are kept under same directory .
-- hit `python3 frame-generator.py` in commandline. 
+- create a directory with the name `sample-clips` . 
+- keep the video clips in the newly created `sample-clips` directory . 
+- make sure that `frame-generator.py` and `sample-clips` directory are kept under same directory .
+- hit the following command in commandline.
+
+```commandline
+python3 frame-generator.py
+```
+
 - you should see the frames of your video clips extracted into `extracted-frames` directory.
 
 ## Acknowledgement :
