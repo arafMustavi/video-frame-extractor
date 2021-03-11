@@ -1,9 +1,9 @@
 import cv2
 import os
 
-# load all the videos in the dataset-sample
-video_clip_list = os.listdir('./dataset-sample')
-print('Total {} videos are found in the dataset-sample directory'.format(len(video_clip_list)))
+# load all the videos in the sample-clips
+video_clip_list = os.listdir('./sample-clips')
+print('Total {} videos are found in the sample-clips directory'.format(len(video_clip_list)))
 
 # create a directory for the extracted frames
 dirName = 'extracted-frames'
@@ -15,7 +15,7 @@ except FileExistsError:
 
 # extract frames from a video by processing one video at a time
 for sample_clip in video_clip_list:
-    video_path = 'dataset-sample/' + str(sample_clip)
+    video_path = 'sample-clips/' + str(sample_clip)
     
     vidcap = cv2.VideoCapture(video_path)
     success,image = vidcap.read()   
