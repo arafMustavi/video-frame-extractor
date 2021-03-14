@@ -3,6 +3,7 @@
 *.png
 *.jpg
 *.jpeg
+*.zip
 
 sample-images/
 notes/
